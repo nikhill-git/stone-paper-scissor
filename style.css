@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.nav {
+    height: 8vh;
+    background-color: rgb(39, 13, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 1.7rem;
+}
+
+.container {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.box {
+    height: 145px;
+    width: 145px;
+}
+
+.box:hover {
+    border:2px solid black;
+    border-radius: 50%;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 50%;
+    height: 145px;
+    width: 145px;
+    object-fit: cover;
+}
+
+.scoreBoard {
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.score1, .score2 {
+    font-size: 1.8rem;
+}
+
+.score1 {
+    margin-left: 0.7rem;
+}
+
+.score2 {
+    margin-left:2.5rem;
+}
+
+.msgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+    color:white;
+}
+
+.msg {
+    display: inline;
+    background-color:rgb(39, 13, 63);
+    border-radius: 0.5rem;
+    padding:  0.3rem 1rem;
+}
+
+.btn {
+    background-color:rgb(237, 237, 55);
+    border-radius: 0.35rem;
+    font-size: 1.2rem;
+    margin: 2rem;
+    padding: 0.2rem 0.8rem;
+}
+
+.button {
+    text-align: end;
+}
